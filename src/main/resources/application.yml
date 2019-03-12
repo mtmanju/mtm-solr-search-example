@@ -1,0 +1,9 @@
+server:
+  port: 8094
+
+spring:
+  data:
+    solr:
+      host: http://localhost:8983/solr/manju2
+      repositories:
+        enabled: true
